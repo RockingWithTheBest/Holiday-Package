@@ -141,6 +141,9 @@ span.dreamplace {
     height: 29px;
     text-align: center;
     align-content: center;
+    left: -26px;
+    top: -13px;
+    position: relative;
 }
 .detailsW31 span.dreamplace{
     background: #65665c75;
@@ -160,6 +163,9 @@ span.familyinminutes {
     font-weight: 400;
     line-height: 67.2px;
     margin-left: 96px;
+    position: relative;
+    top: 6px;
+    left: -17px;
 }
 p.lorem {
     font-size: 20px;
@@ -168,31 +174,40 @@ p.lorem {
     font-weight: 400;
     margin-left: 186px;
     position: relative;
-    left: -87px;
+    left: -108px;
+    top: 8px;
 }
 .detailsW32 {
     display: flex;
     margin-left: 96px;
 }
 .searchbar {
-    width: 310px;
+    width: 304px;
     border: 2px solid #FFFFFF;
     background: #FFFFFF;
     border-radius: 6px;
-    height: 48px;
-    border-radius: 6px
+    height: 44px;
+    border-radius: 6px;
+    position: relative;
+    left: -17px;
+    top: 8px;
 }
 .searchbar img {
     padding-left: 16px;
     padding-top: 16px;
     height: 18px;
     width: 18px;
+    position: relative;
+    top: -3px;
 }
 .searchbar span {
     font-family: Roboto;
     margin-left: 10px;
     font-size: 20px;
     color: #65665C;
+    position: relative;
+    top: -5px;
+    left: 10px;
 }
 button.findproperty {
     border-radius: 6px;
@@ -204,4 +219,6 @@ button.findproperty {
     font-family: Roboto;
     color: #FFFFFF;
     font-weight: 400;
+    position: relative;
+    top: 8px;
 }
