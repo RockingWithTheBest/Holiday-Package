@@ -222,3 +222,184 @@ button.findproperty {
     position: relative;
     top: 8px;
 }
+span.MMedia {
+    font-size: 18px;
+    font-family: Roboto;
+}
+p.worlds {
+    font-size: 18px;
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -333px;
+    top: 45px;
+}
+.Wrappper2W1 {
+    display: flex;
+    justify-content: center;
+    line-height: 27px;
+    margin-bottom: 101px;
+}
+p.work {
+    font-size: 48px;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 57.6px;
+    align-content: center;
+    position: relative;
+    left: -2px;
+}
+p.nunc {
+    font-size: 18px;
+    font-family: Roboto;
+    line-height: 27px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -27px;
+    position: relative;
+    left: -3px;
+}
+.Wrapper2W2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Wrapper2WThree1, .Wrapper2WThree2, .Wrapper2WThree3 {
+    width: 403px;
+    height: 287px;
+    border-radius: 16px;
+    border: 2px solid #8080804d;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+img.homepic {
+    width: 28px;
+    height: 21px;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 27px;
+    border: 2px solid #FAE8E1;
+    background-color: #FAE8E1;
+}
+
+p.getkeys,p.deal,p.findaproperty {
+    font-weight: 700;
+    font-size: 24px;
+    font-family: Roboto;
+    line-height: 33.6px;
+    align-content: center;
+}
+p.odales, p.odalesTWO, p.odalesTHREE{
+    font-size: 16px;
+    font-family: Roboto;
+    line-height: 24px;
+}
+.MiddleDescript {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 42px;
+    gap: 28px;
+}
+.Wrapper2WThree1 {
+    position: relative;
+    left: -5px;
+}
+
+.Wrappper2W1 img {
+    width: 728px;
+    height: 54px;
+    margin-right: -328px;
+    position: relative;
+    top: 60px;
+}
+.Wrapper2WThree2 {
+    position: relative;
+    left: -3px;
+}
+p.odales {
+    margin-left: 46px;
+    margin-top: -11px;
+}
+p.findaproperty {
+    position: relative;
+    top: -5px;
+}
+img.homepic {
+    position: relative;
+    top: 20px;
+}
+span.magna {
+    margin-left: -10px;
+}
+span.purus {
+    margin-left: 30px;
+}
+
+p.odalesTWO {
+   
+        margin-left: 51px;
+        margin-top: -18px;
+    
+}
+span.magnaTWO {
+    margin-left: 18px;
+    position: relative;
+    left: -15px;
+}
+span.purusTWo {
+    margin-left: 4px;
+    position: relative;
+    left: 12px;
+}
+p.deal {
+    position: relative;
+    top: -12px;
+    LEFT: 1PX;
+}
+ img.receiptpic {
+    width: 23px;
+    height: 28px;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 27px;
+    border: 2px solid #FAE8E1;
+    background-color: #FAE8E1;
+    position: relative;
+    top: 16px;
+ }
+
+p.odalesTHREE {
+    margin-left: 58px;
+    margin-top: -7px;
+}
+span.magnaTHREE {
+    margin-left: 14px;
+    position: relative;
+    left: -8px;
+}
+span.purusTHREE {
+    margin-left: 7px;
+    position: relative;
+    left: 13px;
+}
+p.getkeys {
+    position: relative;
+    top: -1px;
+}
+img.keypic {
+    width: 28px;
+    height: 17px;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 27px;
+    border: 2px solid #FAE8E1;
+    background-color: #FAE8E1;
+    position: relative;
+    top: 21px;
+}
