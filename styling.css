@@ -409,16 +409,20 @@ span.comfort {
     font-family: Roboto;
     background-color: grey;
     border-radius: 17px;
-    padding-right: 28px;
-    padding-left: 28px;
+    padding-right: 14px;
+    padding-left: 12px;
+    padding-top: 6px;
+    padding-bottom: 5px;
 }
 span.housesfamily {
     font-size: 48px;
     font-family: Roboto;
     font-weight: bold;
     color: #2A2C1F;
+    margin-left: 1px;
 }
 p.ectus {
+    line-height: 25px;
     font-size: 18px;
     font-family: Roboto;
     color: #65665C;
@@ -432,6 +436,10 @@ button.explorePROPERTIES {
     border: 1px solid #65665c5e;
     background-color: white;
     border-radius: 6px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 31px;
 }
 
 .dropUP span {
@@ -442,4 +450,47 @@ button.explorePROPERTIES {
 .Wrapper3 {
     margin-top: 128px;
     display: flex;
+}
+
+.ComfortHousMain {
+    position: relative;
+    top: 147px;
+    margin-left: 78px;
+}
+span.familyCOM {
+    margin-left: 185px;
+    left: -184px;
+    position: relative;
+}
+span.ectusTWO {
+    margin-left: 174px;
+    position: relative;
+    left: -174px;
+
+}
+.comfortdivTWO {
+    display: flex;
+    margin-top: 21px;
+}
+
+.housesfamilyDIV {
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+p .ectusONE{
+    margin-bottom: 1px;
+}
+.dropUP {
+    margin-left: 28px;
+    position: relative;
+    top: 16px;
+}
+
+.dropUP img {
+    margin-left: 15px;
+}
+
+.coughes img {
+    position: relative;
+    left: -83px;
 }
