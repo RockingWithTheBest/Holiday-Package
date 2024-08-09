@@ -403,3 +403,43 @@ img.keypic {
     position: relative;
     top: 21px;
 }
+span.comfort {
+    color: #2A2C1F;
+    font-size: 14px;
+    font-family: Roboto;
+    background-color: grey;
+    border-radius: 17px;
+    padding-right: 28px;
+    padding-left: 28px;
+}
+span.housesfamily {
+    font-size: 48px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #2A2C1F;
+}
+p.ectus {
+    font-size: 18px;
+    font-family: Roboto;
+    color: #65665C;
+}
+.explorePROPERTIES span {
+    font-size: 16px;
+    color: #2A2C1F;
+    font-family: Roboto;
+}
+button.explorePROPERTIES {
+    border: 1px solid #65665c5e;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.dropUP span {
+    font-size: 16px;
+    font-family: Roboto;
+    color: #2A2C1F;
+}
+.Wrapper3 {
+    margin-top: 128px;
+    display: flex;
+}
