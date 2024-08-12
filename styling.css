@@ -427,12 +427,12 @@ p.ectus {
     font-family: Roboto;
     color: #65665C;
 }
-.explorePROPERTIES span {
+.explorePROPERTIES span, .propertiesagency span {
     font-size: 16px;
     color: #2A2C1F;
     font-family: Roboto;
 }
-button.explorePROPERTIES {
+button.explorePROPERTIES, button.propertiesagency {
     border: 1px solid #65665c5e;
     background-color: white;
     border-radius: 6px;
@@ -442,7 +442,7 @@ button.explorePROPERTIES {
     padding-right: 31px;
 }
 
-.dropUP span {
+.dropUP span, .dropUPTWO span {
     font-size: 16px;
     font-family: Roboto;
     color: #2A2C1F;
@@ -480,17 +480,131 @@ span.ectusTWO {
 p .ectusONE{
     margin-bottom: 1px;
 }
-.dropUP {
+.dropUP, .dropUPTWO {
     margin-left: 28px;
     position: relative;
     top: 16px;
 }
 
-.dropUP img {
+.dropUP img, .dropUPTWO img {
     margin-left: 15px;
 }
 
 .coughes img {
     position: relative;
     left: -83px;
+}
+.Wrapper4 {
+    margin-top: 124px;
+    margin-left: 78px;
+    display: flex;
+    gap: 82px;
+}
+.QUickOne {
+    margin-top: 60px;
+}
+span.easy {
+    font-size: 14px;
+    font-family: Roboto;
+    border: 2px solid #E7E8E3;
+    background-color: #E7E8E3;
+    border-radius: 15px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    padding-right: 19px;
+    padding-left: 11px;
+    margin-left: -3px;
+}
+
+.fastforqard {
+    font-size: 48px;
+    font-family: Roboto;
+    font-weight: bold;
+    margin-top: 26px;
+    margin-left: -2px;
+}
+.vitae {
+    line-height: 25px;
+    font-size: 18px;
+    font-family: Roboto;
+    color: #65665C;
+    margin-top: 33px;
+    margin-left: -2px;
+}
+.payments {
+    align-content: center;
+    background: #FAE8E1;
+    width: 37px;
+    height: 46px;
+    border-radius: 9px;
+    margin-left: 6px;
+    margin-bottom: 18px;
+}
+.description {
+    align-content: center;
+    background: #FAE8E1;
+    width: 35px;
+    height: 46px;
+    border-radius: 9px;
+    margin-left: 54px;
+    margin-bottom: 18px;
+}
+span.affortableprices, span.paperwork {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Roboto;
+}
+span.affortableprices {
+    margin-left: -2px;
+}
+p.ipsum, p.porta, .ipsumTHREE {
+    font-size: 16px;
+    font-family: Roboto;
+    color: #65665C;
+}
+.affortableless {
+    display: flex;
+    margin-top: 40px;
+}
+span.utvitaeTWO {
+    margin-left: 69px;
+    position: relative;
+    left: -69px;
+}
+p.ipsum {
+    margin-top: 22px;
+    margin-left: -2px;
+    line-height: 22px;
+}
+span.ipsumTWO {
+    margin-left: 131px;
+    position: relative;
+    left: -131px;
+}
+p.ipsumTHREE {
+    margin-top: -12px;
+    margin-left: -2px;
+}
+.less {
+    margin-left: -88px;
+}
+.paperworkDIV {
+    margin-bottom: 23px;
+    margin-left: 40px;
+}
+p.porta {
+    margin-left: 117px;
+    position: relative;
+    left: -77px;
+    line-height: 22px;
+}
+button.propertiesagency {
+    margin-top: 17px;
+    margin-left: -2px;
+}
+.properAgent {
+    display: flex;
+}
+.dropUPTWO {
+    margin-top: 16px;
 }
