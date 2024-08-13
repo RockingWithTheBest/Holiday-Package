@@ -691,6 +691,7 @@ p.locationone,p.locationtwo, .locationthree, .locationfour ,.locationfive, .loca
 .Wrapper5 {
     background-color: #F5F5F2;
     padding-top: 257px;
+    padding-bottom: 0px;
 }
 .entric11 span, .entric13 span  {
     left: 12px;
@@ -1207,6 +1208,7 @@ p.viewall {
 .Wrapper9 {
     background: #F5F5F2;
     margin-top: 164px;
+    padding-bottom: 128px;
 }
 div span.blog {
     position: relative;
@@ -1401,6 +1403,157 @@ span.nulla {
     position: relative;
     left: 343px;
 }
+.Wrapper10 {
+    margin-top: 50px;
+    font-family: Roboto;
+    display: flex;
+    justify-content: center;
+    gap: 129px;
+    margin-bottom: 59px;
+}
+.companyreal {
+    font-size: 21px;
+    font-weight: bold;
+    position: relative;
+    left: 21px;
+    top: 5px;
+}
+.companyreal img {
+    position: relative;
+    top: 7px;
+    left: -7px;
+}
+button.email, button.subbutton {
+    font-family: Roboto;
+    font-size: 16px;
+}
+button.email {
+    border: 2px solid #9e9e9e4d;
+    background: white;
+    padding: 13px;
+    padding-right: 110px;
+    border-radius: 8px;
+    color: #65665C;
+    padding-left: 12px;
+}
+
+button.subbutton {
+    background: #CF6F49;
+    border: 2px solid #CF6F49;
+    padding: 14px;
+    padding-left: 25px;
+    padding-right: 27px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 13px;
+}
+p.agree {
+    margin-top: 16px;
+}
+.agree span {
+    margin-left: 11px;
+}
+p.join {
+    color: #65665C;
+}
+
+p.agree, .agree span{
+    color: #65665C;
+    font-size: 12px;
+}
+.phaboy {
+    position: relative;
+    left: -12px;
+    top: 1px;
+}
+p.home, p.Agents, p.FAQs, p.property {
+    margin-top: 21px;
+    font-size: 14px;
+}
+ p.Blog, p.properitIES, p.Contact {
+    margin-top: 19px;
+    font-size: 14px;
+}
+p.Propertysingle , p.About{
+    margin-top: 20px;
+    font-size: 14px;
+}
+.cmsprop {
+    margin-left: 2px;
+}
+p.catergories,p.blogsingle,p.agentsingle, p.StyleGuide,p.Changelog,p.Licenses,p.F404,p.Password, p.Search {
+    font-size: 14px;
+}
+.cmsprop {
+    margin-left: 2px;
+    position: relative;
+    left: -7px;
+}
+p.catergories, p.agentsingle, p.blogsingle {
+    margin-top: 20px;
+}
+.utilitypages {
+    position: relative;
+    left: -35px;
+}
+p.StyleGuide, p.Licenses  {
+    margin-top: 21px;
+}
+p.Changelog,p.Password, p.Search {
+    margin-top: 20px;
+}
+p.F404 {
+    margin-top: 19px;
+}
+.subscribe {
+    position: relative;
+    left: 44px;
+}
+.join span {
+    position: relative;
+    top: 23px;
+    left: -382px;
+}
+.entemail {
+    margin-top: 40px;
+}
+.Wrapper11 {
+    padding-top: 30px;
+    font-size: 14px;
+    font-family: Roboto;
+    display: flex;
+    background: #F5F5F2;
+    justify-content: center;
+    padding-bottom: 36px;
+}
+.Realcoby {
+    position: relative;
+    left: -451px;
+}
+.miminal {
+    position: relative;
+    left: -440px;
+}
+.images {
+    position: relative;
+    left: 397px;
+}
+img.insta {
+    position: relative;
+    left: 18px;
+}
+img.twit {
+    position: relative;
+    left: 31px;
+}
+img.linked {
+    position: relative;
+    left: 47px;
+}
+
+
+
+
 @media screen and (max-width: 1440px){
     .ALL {
         position: relative;
