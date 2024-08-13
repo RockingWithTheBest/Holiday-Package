@@ -793,6 +793,7 @@ p.studioCozTwo {
     align-items: center;
     margin-left: -64px;
     margin-top: 7px;
+    padding-bottom: 108px;
 }
 
 span.locationSix {
@@ -1016,4 +1017,162 @@ span.MorbiiTWO {
     position: relative;
     left: 125px;
     top: -13px;
+}
+p.customers {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Roboto;
+    color: #2A2C1F;
+    text-align: center;
+    position: relative;
+    left: -2px;
+}
+p.orci {
+    color: #65665C;
+    font-size: 18px;
+    font-family: Roboto;
+    text-align: center;
+    top: -18px;
+    position: relative;
+    left: -2px;
+    margin-bottom: 63px;
+}
+p.loremparagrapaph {
+    font-size: 18px;
+    font-family: Roboto;
+    color: #2A2C1F;
+    margin-left: 34px;
+    margin-top: 26px;
+    line-height: 25px;
+
+}
+
+span.michaelwebtext, .AmberKeenetext,.SarahTarletontext {
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+.michaelwebtext span, .AmberKeenetext span,.SarahTarletontext  span
+{
+    font-weight: normal;
+    color: #65665C;
+}
+.stars {
+    display: flex;
+    justify-content: center;
+}
+.firststars, .secondstars, .thirdstars {
+    width: 405px;
+    height: 325px;
+    background-color: #e7e8e37d;
+    border-radius: 23px;
+}
+.firststars img, .secondstars img, .thirdstars img{
+    margin-top: 33px;
+    margin-left: 33px;
+}
+.firststars {
+    position: relative;
+    left: -35px;
+}
+.secondstars {
+    position: relative;
+    left: -4px;
+}
+.thirdstars {
+    position: relative;
+    left: 30px;
+}
+span.stars12 {
+    margin-left: 6px;
+    position: relative;
+    left: -6px;
+    top: 1px;
+}
+span.stars13 {
+    position: relative;
+    top: 3px;
+}
+span.stars14 {
+    margin-left: 26px;
+    position: relative;
+    left: -27px;
+    top: 5px;
+}
+img.michaelwebphoto {
+    margin-top: 16px;
+}
+span.michaelwebtext {
+    position: relative;
+    top: -31px;
+    left: 17px;
+}
+.michaelwebtext span {
+    position: relative;
+    top: 24px;
+    left: -102px;
+}
+span.stars22 {
+    margin-left: 3px;
+    position: relative;
+    top: 1px;
+    left: -3px;
+}
+span.stars23 {
+    position: relative;
+    margin-left: 41px;
+    top: 3px;
+    left: -40px;
+}
+span.stars24 {
+    position: relative;
+    top: 5px;
+    left: 1px;
+}
+span.stars25 {
+    margin-left: 36px;
+    position: relative;
+    top: 7px;
+    left: -35px;
+}
+img.AmberKeenephoto {
+    margin-top: 18px;
+    margin-left: 34px;
+}
+span.AmberKeenetext {
+    position: relative;
+    margin-left: 16px;
+    top: -31px;
+}
+.AmberKeenetext span {
+    position: relative;
+    top: 24px;
+    left: -96px;
+}
+span.stars32 {
+    position: relative;
+    top: 1px;
+}
+span.stars33 {
+    margin-left: 26px;
+    position: relative;
+    left: -27px;
+    top: 3px;
+}
+span.stars34 {
+    position: relative;
+    top: 5px;
+}
+img.SarahTarletonphoto {
+    margin-top: 43px;
+}
+span.SarahTarletontext {
+    margin-left: 16px;
+    position: relative;
+    top: -31px;
+}
+.SarahTarletontext span {
+    position: relative;
+    top: 24px;
+    left: -104px;
 }
