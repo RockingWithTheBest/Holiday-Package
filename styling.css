@@ -1176,3 +1176,234 @@ span.SarahTarletontext {
     top: 24px;
     left: -104px;
 }
+
+.blog {
+    font-size: 14px;
+    font-family: Roboto;
+    border: 2px solid #E7E8E3;
+    border-radius: 11px;
+    background-color: #E7E8E3;
+    padding-right: 14px;
+    padding-left: 11px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    position: relative;
+}
+p.latest {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Roboto;
+}
+p.ante {
+    color: #65665C;
+    font-size: 18px;
+    font-family: Roboto;
+}
+p.viewall {
+    font-size: 16px;
+    font-family: Roboto;
+    color: #2A2C1F;
+}
+.Wrapper9 {
+    background: #F5F5F2;
+    margin-top: 164px;
+}
+div span.blog {
+    position: relative;
+    top: 131px;
+    left: 77px;
+}
+p.latest {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Roboto;
+    margin-left: 78px;
+    margin-top: 156px;
+}
+
+.posts {
+    display: flex;
+    margin-left: 78px;
+    position: relative;
+    top: -33px;
+}
+span.ante2 {
+    position: relative;
+    top: 27px;
+    left: -685px;
+}
+.view {
+    border: 2px solid white;
+    background: white;
+    padding-left: 24px;
+    padding-right: 23px;
+    margin-left: -25px;
+    margin-top: 14px;
+    border-radius: 7px;
+    height: 50px;
+}
+.bestoffers {
+    display: flex;
+    margin-left: 79px;
+    margin-top: 45px;
+}
+span.DIY {
+    background: #FAE8E1;
+    padding-top: 7px;
+    padding-bottom: 4px;
+    padding-right: 11px;
+    padding-left: 8px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-family: Roboto;
+}
+span.trend {
+    background: #FAE8E1;
+    padding-top: 7px;
+    padding-right: 11px;
+    padding-left: 8px;
+    border-radius: 103px;
+    font-size: 14px;
+    font-family: Roboto;
+    padding-bottom: 7px;
+}
+
+.trend2, .DIY2{
+    font-size: 14px;
+    font-family: Roboto;
+}
+p.trend2 {
+    position: relative;
+    left: 78px;
+    top: -31px;
+}
+p.ninbest {
+    margin-left: 24px;
+    margin-top: -21px;
+}
+p.Integer {
+    margin-top: -10px;
+    margin-left: 24px;
+}
+span.amet {
+    margin-left: 40px;
+    position: relative;
+    top: 5px;
+    left: -40px;
+}
+span.donec {
+    position: relative;
+    left: -327px;
+    top: 29px;
+}
+.readmore {
+    margin-top: 65px;
+    margin-left: 26px;
+}
+.readmore img ,.readmore3 img, .readmore2 img{
+    margin-left: 11px;
+    position: relative;
+    top: -1px;
+}
+.trend span, .DIY span {
+    color: #65665C;
+}
+p.ninbest , p.realconhouses, p.completeguide{
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #2A2C1F;
+}
+.readmore span,.readmore2 span,.readmore3 span {
+    font-size: 16px;
+    font-family: Roboto;
+    color: #2A2C1F;
+}
+p.Integer, p.Praesent, p.gravida {
+    font-size: 16px;
+    font-family: Roboto;
+}
+.NYC, .Realco, .renting {
+    width: 403px;
+    height: 531px;
+    background: white;
+    border-radius: 28px
+}
+.trendDIV {
+    margin-top: 24px;
+    margin-left: 24px;
+}
+.Realco {
+    margin-left: 34px;
+}
+p.DIY2 {
+    position: relative;
+    left: 56px;
+    top: -32px;
+}
+p.realconhouses {
+    margin-left: 24px;
+    margin-top: -21px;
+}
+.realconhouses span {
+    position: relative;
+    margin-left: 48px;
+    top: 5px;
+    left: -48px;
+}
+.RealcoDIV {
+    margin-top: 25px;
+    margin-left: 24px;
+}
+p.Praesent {
+    margin-left: 24px;
+    margin-top: -7px;
+}
+span.metus {
+    position: relative;
+    top: 5px;
+    margin-left: 8px;
+    left: -8px;
+}
+.readmore2 {
+    margin-left: 26px;
+    margin-top: 32px;
+}
+.renting {
+    margin-left: 35px;
+}
+p.completeguide {
+    margin-top: -21px;
+    margin-left: 24px;
+}
+.completeguide span {
+    margin-left: 24px;
+    position: relative;
+    top: 5px;
+    left: -24px;
+}
+p.gravida {
+    margin-top: -7px;
+    margin-left: 24px;
+}
+span.nulla {
+    margin-left: 36px;
+    position: relative;
+    top: 5px;
+    left: -36px;
+}
+.readmore3 {
+    margin-left: 26px;
+    margin-top: 32px;
+}
+
+.ALL {
+    position: relative;
+    left: 343px;
+}
+@media screen and (max-width: 1440px){
+    .ALL {
+        position: relative;
+        left: 0px;
+    }
+}
