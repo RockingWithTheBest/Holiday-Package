@@ -1602,19 +1602,191 @@ img.linked {
     }
 }
 
-
-@media screen and (max-width: 557px){
-    .WrapperOneThird{
-        width: 557px;
-        height: 685px;
-    }
-    .searchbar{
-        width: 230px;
-    }
-    button.findproperty{
+@media screen and (max-width: 1000px){
+    span.dreamplace{
+        font-size: 12px;
+        width: 142px;
+        height: 29px;
+        margin-left: 23px;
         position: relative;
-        top: 62px;
-        left: -252px;
-        margin-top: 14px;
+        left: 0px;
+    }
+    span.familyinminutes{
+        font-size: 30px;
+        position: relative;
+        top: 6px;
+        left: 0px;
+        line-height: 40.2px;
+        margin-left: 23px;
+    }
+    p.lorem {
+        font-size: 15px;
+        line-height: 25px;
+        margin-left: 186px;
+        position: relative;
+        left: -159px;
+    }
+    .searchbar {
+        width: 145px;
+        height: 39px;
+        position: relative;
+        left: -71px;
+    }
+    button.findproperty {
+        width: 115px;
+        height: 43px;
+        border: #CF6F49;
+        font-size: 16px;
+        position: relative;
+        left: -50px;
+    }
+    .WrapperOneFirst span {
+        position: fixed;
+        left: 374px;
+    }
+}
+@media screen and (max-width: 926px){
+    .livingroomphoto img{
+        width: 451px;
+    }
+    
+}
+@media screen and (max-width: 802px){
+    .livingroomphoto img {
+        width: 391px;
+    }
+    span.familyinminutes {
+        font-size: 17px;
+        position: relative;
+        top: 6px;
+        left: 0px;
+        line-height: 40.2px;
+        margin-left: 12px;
+    }
+    p.lorem {
+        font-size: 10px;
+        line-height: 17px;
+        margin-left: 186px;
+        position: relative;
+        left: -169px;
+    }
+    span.dreamplace {
+        font-size: 11px;
+        width: 127px;
+        height: 22px;
+        margin-left: 10px;
+        position: relative;
+        left: 0px;
+    }
+    .searchbar img {
+        padding-left: 3px;
+        padding-top: 11px;
+        height: 11px;
+        width: 11px;
+        position: relative;
+        top: -3px;
+    }
+    .searchbar span {
+        font-family: Roboto;
+        margin-left: -2px;
+        font-size: 14px;
+        color: #65665C;
+        position: relative;
+        top: -5px;
+        left: 10px;
+    }
+    .searchbar {
+        width: 75px;
+        height: 24px;
+        position: relative;
+        left: -71px;
+    }
+    button.findproperty {
+        width: 83px;
+        height: 28px;
+        border: #CF6F49;
+        font-size: 12px;
+        position: relative;
+        left: -60px;
+    }
+
+}
+@media screen and (max-width: 686px) {
+    .livingroomphoto img {
+        width: 289px;
+    }
+    span.dreamplace {
+        left: 0px;
+        top: 5px;
+        position: relative;
+    }
+}
+@media screen and (max-width: 600px) {
+    .livingroomphoto img {
+        width: 222px;
+    }
+    span.familyinminutes {
+        position: relative;
+        top: 18px;
+    }
+    span.dreamplace {
+        top: 23px;
+        position: relative;
+    }
+}
+@media screen and (max-width: 567px){
+    .WrapperOneFirst span {
+        position: fixed;
+        left: 193px;
+    }
+    span.familyinminutes {
+        font-size: 11px;
+    }
+    span.dreamplace {
+        font-size: 9px;
+        width: 94px;
+        height: 16px;
+    }
+    p.lorem {
+        font-size: 8px;
+        line-height: 12px;
+        margin-left: 186px;
+        position: relative;
+        left: -173px;
+    }
+    .searchbar {
+        width: 67px;
+        height: 20px;
+        position: relative;
+        left: -83px;
+    }
+    .searchbar img {
+        padding-left: 3px;
+        padding-top: 11px;
+        height: 8px;
+        width: 8px;
+        position: relative;
+        top: -7px;
+    }
+    .searchbar span {
+        font-family: Roboto;
+        margin-left: -2px;
+        font-size: 11px;
+        color: #65665C;
+        position: relative;
+        top: -7px;
+        left: 7px;
+    }
+    button.findproperty {
+        width: 67px;
+        height: 23px;
+        font-size: 9px;
+        position: relative;
+        left: -74px;
+    }
+}
+@media screen and (max-width: 486px) {
+    .livingroomphoto img {
+        width: 179px;
     }
 }
