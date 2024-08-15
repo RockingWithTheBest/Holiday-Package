@@ -1,0 +1,147 @@
+.companynmae span{
+    display: none;
+}
+@media screen and (max-width: 1300px){
+    .Menu {
+        position: fixed;
+        display: inline-block;
+        left:0px;
+        z-index: 10;
+        top: -6px;
+    }
+    .WrapperOneFirst{
+        position: fixed;
+        width: 100%;
+        z-index: 10;
+    }
+    .WrapperOneFirst img{
+        display: none;
+    }
+    .inputmenu {
+        display: none; /* Hide the checkbox */
+    }
+    .slide {
+        position: absolute;
+        top: 46px;
+        left: -11px;
+        border-radius: 7px;
+    }
+    .companynmae span {
+        display: block;
+        font-size: 21px;
+        font-family: Roboto;
+        font-weight: 600;
+        color: #2A2C1F;
+        margin-right: -17px;
+        position: relative;
+        left: 42px;
+        top: 14px;
+    }
+    .toggle {
+        position: absolute;
+        cursor: pointer;
+        width: 50px;
+        height: 40px;
+        margin-bottom: -60px;
+        left: 6px;
+        top: 7px;
+    }
+    
+    .common {
+        position: absolute;
+        height: 5px; /* Line thickness */
+        width: 30px; /* Line length */
+        background: black; /* Line color */
+        transition: all 0.3s ease; /* Animation */
+    }
+    
+    .top_line {
+        top: 30%;
+        left: 15px;
+        transform: translate(-50%, -50%);
+    }
+    
+    .middle_line {
+        top: 50%;
+        left: 15px;
+        transform: translate(-50%, -50%);
+    }
+    
+    .bottom_line {
+        top: 70%;
+        left: 15px;
+        transform: translate(-50%, -50%);
+    }
+    
+    input.inputmenu:checked + .toggle .top_line {
+        top: 56%;
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+    
+    input.inputmenu:checked + .toggle .middle_line {
+        opacity: 0; /* Hide the middle line */
+    }
+    
+    input.inputmenu:checked + .toggle .bottom_line {
+        top: 56%;
+        transform: translate(-50%, -50%) rotate(-45deg);
+    }
+    
+    .slide {
+        display: none; /* Hide menu by default */
+        background: white;
+        border: 1px solid #ccc;
+        width: 220px; /* Width of the slide */
+        z-index: 10; /* Ensure it appears above other content */
+    }
+    .slide h1 {
+        position: relative;
+        left: 39px;
+        color: #222222;
+        font-family: Roboto;
+        margin-bottom:-15px;
+    }
+    
+    input.inputmenu:checked ~ .slide {
+        display: block; /* Show menu when checked */
+    }
+    
+    ul {
+        list-style: none;
+        padding: 10px;
+        margin: 0;
+    }
+    
+    li {
+        margin: 10px 0;
+    }
+    ul.MenuDivision, button.signin, button.login{
+        font-size: 16px;
+        font-weight: 400;
+        font-family: Roboto;
+        color: #222222;
+        display: inline;
+    }
+    .MenuDivision a{
+        text-decoration: none;
+    }
+  
+    span.aboutW1, span.contactW1, span.searchW1, button.btncart{
+        position: relative;
+        left: 0px;
+    }
+    ul.MenuDivision {
+        left: 44px;
+        position: relative;
+    }
+    ul.MenuDivision li {
+        margin-bottom: 16px;
+    }
+
+    .MenuDivision span {
+        font-weight: 400;
+        font-family: Roboto;
+        color: #222222;
+        line-height: 24px;
+    }
+}

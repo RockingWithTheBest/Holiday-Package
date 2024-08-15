@@ -23,7 +23,7 @@ body {
 }
 .WrapperOneFirst span {
     position: relative;
-    left: -54px;
+    left: -321px;
     top: 2px;
 }
 .logo1 {
@@ -452,10 +452,11 @@ button.explorePROPERTIES, button.propertiesagency, .explorecontact button , .exp
     display: flex;
 }
 
+
 .ComfortHousMain {
     position: relative;
     top: 147px;
-    margin-left: 78px;
+    margin-left: 102px;
 }
 span.familyCOM {
     margin-left: 185px;
@@ -627,7 +628,7 @@ button.propertiesagency {
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 459.52px;
     justify-content: center;
-    margin-left: 78px;
+    margin-left: 155px;
     grid-row-gap: 31px;
 }
 .perties {
@@ -691,7 +692,7 @@ p.locationone,p.locationtwo, .locationthree, .locationfour ,.locationfive, .loca
 .Wrapper5 {
     background-color: #F5F5F2;
     padding-top: 257px;
-    padding-bottom: 0px;
+    margin-bottom: -8px;
 }
 .entric11 span, .entric13 span  {
     left: 12px;
@@ -1401,7 +1402,7 @@ span.nulla {
 
 .ALL {
     position: relative;
-    left: 343px;
+    left: 200px;
 }
 .Wrapper10 {
     margin-top: 50px;
@@ -1551,12 +1552,69 @@ img.linked {
     left: 47px;
 }
 
+.mirror {
+    margin-left: 162px;
+}
 
-
-
+/*ADAPTIVITY*/
+@media screen and (max-width: 1598px){
+    .WrapperOneFirst span {
+        position: absolute;
+        left: 595px;
+        top: 11px;
+    }
+}
 @media screen and (max-width: 1440px){
     .ALL {
         position: relative;
         left: 0px;
+    }
+    .WrapperOneFirst span {
+        position: absolute;
+        left: 595px;
+        top: 11px;
+    }
+    .ComfortHousMain {
+        position: relative;
+        top: 147px;
+        margin-left: 78px;
+    }
+    .mirror {
+        margin-left: 0px;
+    }
+    .CozTiCrFaStan {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 459.52px;
+        justify-content: center;
+        margin-left: 78px;
+        grid-row-gap: 31px;
+    }
+}
+@media screen and (max-width: 1300px){
+    
+    .firstdivisionW1 {
+        display: none;
+    }
+    span.aboutW1, span.contactW1, span.searchW1, button.btncart{
+        position: relative;
+        left: 0px;
+    }
+}
+
+
+@media screen and (max-width: 557px){
+    .WrapperOneThird{
+        width: 557px;
+        height: 685px;
+    }
+    .searchbar{
+        width: 230px;
+    }
+    button.findproperty{
+        position: relative;
+        top: 62px;
+        left: -252px;
+        margin-top: 14px;
     }
 }
