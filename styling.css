@@ -1722,71 +1722,89 @@ img.linked {
     }
 }
 @media screen and (max-width: 600px) {
-    .livingroomphoto img {
-        width: 222px;
+    .livingroomphoto  {
+       display: none;
     }
     span.familyinminutes {
         position: relative;
         top: 18px;
     }
-    span.dreamplace {
-        top: 23px;
+    .detailsW31 span.dreamplace {
+        margin-top: 48px;
+        background: #65665c75;
+        margin-left: 0px;
         position: relative;
+        left: 0;
     }
-}
-@media screen and (max-width: 567px){
-    .WrapperOneFirst span {
-        position: fixed;
-        left: 193px;
+    span.familyinminutes,p.lorem, .searchbar, button.findproperty, .detailsW32{
+        margin-left: 0px;
+        position: relative;
+        left: 0;
+    }
+    .WrapperOneThird {
+        background: #E7E8E3;
+        display: flex;
+        justify-content: center;
+    }
+    span.dreamplace {
+        font-size: 13px;
+        width: 142px;
+        height: 31px;
     }
     span.familyinminutes {
-        font-size: 11px;
-    }
-    span.dreamplace {
-        font-size: 9px;
-        width: 94px;
-        height: 16px;
+        font-size: 23px;
     }
     p.lorem {
-        font-size: 8px;
-        line-height: 12px;
-        margin-left: 186px;
-        position: relative;
-        left: -173px;
+        font-size: 14px;
     }
-    .searchbar {
-        width: 67px;
-        height: 20px;
-        position: relative;
-        left: -83px;
+    .detailsW31{
+        margin-left: 48px;
     }
-    .searchbar img {
-        padding-left: 3px;
-        padding-top: 11px;
-        height: 8px;
-        width: 8px;
-        position: relative;
-        top: -7px;
-    }
-    .searchbar span {
-        font-family: Roboto;
-        margin-left: -2px;
-        font-size: 11px;
-        color: #65665C;
-        position: relative;
-        top: -7px;
-        left: 7px;
-    }
-    button.findproperty {
-        width: 67px;
-        height: 23px;
-        font-size: 9px;
-        position: relative;
-        left: -74px;
+    .detailsW32 {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-bottom: 39px;
     }
 }
-@media screen and (max-width: 486px) {
-    .livingroomphoto img {
-        width: 179px;
+@media screen and (max-width: 580px){
+    .WrapperOneFirst {
+        font-size: 13px;
+   }
+   .WrapperOneFirst span {
+    position: fixed;
+    left: 329px;
+}
+p.lorem {
+    font-size: 14px;
+    margin-left: 65px;
+    position: relative;
+    left: -64px;
+}
+}
+@media screen and (max-width: 517px) {
+    .WrapperOneFirst span {
+        position: fixed;
+        left: 287px;
+    }
+    .companynmae span {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    span.familyinminutes {
+        font-size: 20px;
+    }
+    p.lorem {
+        font-size: 12px;
+        margin-left: 65px;
+        position: relative;
+        left: -64px;
+    }
+    .WrapperOneFirst {
+        background-color: #939878;
+        height: 55px;
+    }
+    .detailsW31 span.dreamplace {
+        margin-top: 74px;
     }
 }
