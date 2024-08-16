@@ -1808,3 +1808,17 @@ p.lorem {
         margin-top: 74px;
     }
 }
+
+@media screen and (max-width: 479px) {
+    button.findproperty {
+        font-size: 11px;
+    }
+    .searchbar span {
+        font-size: 12px;
+      }
+      span.dreamplace {
+        font-size: 13px;
+        width: 142px;
+        height: 20px;
+    }
+}
