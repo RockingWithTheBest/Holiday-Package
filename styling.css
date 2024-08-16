@@ -1664,8 +1664,8 @@ img.linked {
         font-size: 16px;
     }
     .MiddleDescript {
-        display: inline-block;
-   
+        display: grid;
+        justify-items: center;
     }
     p.nunc {
      
@@ -1673,7 +1673,9 @@ img.linked {
         left: 0;
     }
 }
+@media screen and (max-width: 1110px) {
 
+}
 @media screen and (max-width: 1000px){
     span.dreamplace{
         font-size: 12px;
@@ -1722,6 +1724,43 @@ img.linked {
         width: 451px;
     }
     
+}
+@media screen and (max-width: 885px){
+    .Wrappper2W1 img {
+        width: 628px;
+        height: 51px;
+    }
+    p.nunc {
+        font-size: 14px;
+    }
+    .Wrapper2WThree1, .Wrapper2WThree2, .Wrapper2WThree3 {
+        width: 322px;
+        height: 232px;
+    }
+    span.maurisTWO {
+        margin-left: -26px;
+    }
+    span.magnaTWO {
+        margin-left: 37px;
+        position: relative;
+        left: -63px;
+    }
+    span.purusTWo {
+        margin-left: 4px;
+        position: relative;
+        left: -29px;
+    }
+    span.magnaTHREE {
+        margin-left: 5px;
+        position: relative;
+        left: -7px;
+    }
+    img.keypic {
+        margin-top: -43px;
+    }
+    span.MMedia {
+        margin-left: 14px;
+    }
 }
 @media screen and (max-width: 802px){
     .livingroomphoto img {
@@ -1782,6 +1821,21 @@ img.linked {
         left: -60px;
     }
 
+}
+@media screen and (max-width: 780px) {
+    .Wrappper2W1 img {
+        width: 480px;
+        height: 41px;
+    }
+    p.worlds, span.MMedia {
+        font-size: 16px;
+    }
+    p.work {
+        font-size: 31px;
+    }
+    p.nunc {
+        margin-left: 28px;
+    }
 }
 @media screen and (max-width: 686px) {
     .livingroomphoto img {
@@ -1854,6 +1908,18 @@ p.lorem {
     left: -64px;
 }
 }
+@media screen and (max-width: 525px){
+    p.worlds, span.MMedia {
+        font-size: 14px;
+    }
+    .Wrappper2W1 {
+        line-height: 20px;
+    }
+    .Wrappper2W1 img {
+        width: 417px;
+        height: 36px;
+    }
+}
 @media screen and (max-width: 517px) {
     .WrapperOneFirst span {
         position: fixed;
@@ -1887,7 +1953,59 @@ p.lorem {
     }
     .searchbar span {
         font-size: 12px;
-      }
+      } 
+}
 
-    
+@media screen and (max-width: 430px) {
+    .Wrappper2W1 img {
+        width: 372px;
+        height: 29px;
+    }
+    p.nunc {
+        margin-left: 20px;
+        font-size: 13px;
+        line-height: 20px;
+    }
+}
+@media screen and (max-width: 384px) {
+    .Wrapper2WThree1, .Wrapper2WThree2, .Wrapper2WThree3 {
+        width: 292px;
+        height: 258px;
+    }
+    span.purusTWo {
+        margin-left: -18px;
+        position: relative;
+        left: -6px;
+    }
+    span.magnaTHREE, span.purusTHREE {
+        margin-left: 0; 
+        position: relative;
+        left: 0; 
+    }
+    p.odales {
+        margin-left: 21px;
+        margin-top: -11px;
+    }
+    p.odalesTWO {
+        margin-left: 37px;
+        margin-top: -18px;
+    }
+    span.magnaTWO {
+        margin-left: -26px;
+        position: relative;
+        left: 0px;
+    }
+    p.odalesTHREE {
+        margin-left: 15px;
+        margin-top: 18px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .Wrappper2W1 img {
+        width: 315px;
+        height: 25px;
+    }
+    p.worlds, span.MMedia {
+        font-size: 12px;
+    }
 }
