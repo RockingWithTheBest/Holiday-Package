@@ -335,10 +335,10 @@ img.homepic {
     top: 20px;
 }
 span.magna {
-    margin-left: -10px;
+    margin-left: 0px;
 }
 span.purus {
-    margin-left: 30px;
+    margin-left: 0px;
 }
 
 p.odalesTWO {
@@ -379,14 +379,14 @@ p.odalesTHREE {
     margin-top: -7px;
 }
 span.magnaTHREE {
-    margin-left: 14px;
+    margin-left: 8px;
     position: relative;
-    left: -8px;
+    left: -7px;
 }
 span.purusTHREE {
     margin-left: 7px;
     position: relative;
-    left: 13px;
+    left: -5px;
 }
 p.getkeys {
     position: relative;
@@ -1600,6 +1600,78 @@ img.linked {
         position: relative;
         left: 0px;
     }
+    p.worlds {
+        position: relative;
+        left: -257px;
+    }
+    .Wrapper2WThree1, .Wrapper2WThree2, .Wrapper2WThree3 {
+        width: 268px;
+        height: 298px;
+    }
+    p.odales, p.odalesTWO, p.odalesTHREE {
+        font-size: 15px;
+        font-family: Roboto;
+        line-height: 24px;
+    }
+    span.maurisTWO {
+        margin-left: -37px;
+    }
+    span.magnaTWO {
+        margin-left: 37px;
+        position: relative;
+        left: -30px;
+    }
+    p.odalesTHREE {
+        margin-left: 21px;
+        margin-top: 18px;
+    }
+    span.purusTHREE {
+        margin-left: -8px;
+        position: relative;
+        left: 0px;
+    }
+    p.getkeys {
+        position: relative;
+        top: 24px;
+    }
+    img.keypic {
+        position: relative;
+        top: 53px;
+    }
+}
+@media  screen and (max-width: 1282px) {
+    p.worlds {
+        position: relative;
+        left: 0;
+    }
+    .Wrappper2W1 {
+        display: flex;
+        line-height: 27px;
+        margin-bottom: 101px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .Wrappper2W1 img {
+        margin-right: 0;
+    }
+    p.work {
+        font-size: 40px;
+        position: relative;
+        left: 0px; 
+    }
+    p.nunc {
+        font-size: 16px;
+    }
+    .MiddleDescript {
+        display: inline-block;
+   
+    }
+    p.nunc {
+     
+        position: relative;
+        left: 0;
+    }
 }
 
 @media screen and (max-width: 1000px){
@@ -1816,9 +1888,6 @@ p.lorem {
     .searchbar span {
         font-size: 12px;
       }
-      span.dreamplace {
-        font-size: 13px;
-        width: 142px;
-        height: 20px;
-    }
+
+    
 }
