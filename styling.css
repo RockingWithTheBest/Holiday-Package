@@ -1672,11 +1672,23 @@ img.linked {
         position: relative;
         left: 0;
     }
+    
+
 }
 @media screen and (max-width: 1110px) {
 
 }
 @media screen and (max-width: 1000px){
+    button.btncart, button.login, button.signin {
+        width: 77px;
+        height: 28px;
+        border-radius: 7px;
+        border-color: #8080801f;
+        position: relative;
+        top: -10px;
+        font-size: 14px;
+        left: 3px;
+    }
     span.dreamplace{
         font-size: 12px;
         width: 142px;
@@ -1925,6 +1937,7 @@ p.lorem {
         position: fixed;
         left: 287px;
     }
+   
     .companynmae span {
         font-size: 20px;
         font-weight: 500;
