@@ -146,6 +146,9 @@
     }
 }
 @media screen and (max-width: 1000px) {
+    .btnProperty{
+        display: none;
+    }
     .slide {
         width: 164px;
     }
