@@ -1592,10 +1592,41 @@ img.linked {
     }
 }
 @media screen and (max-width: 1300px){
+    .mirror img {
+        width: 500px;
+        position: relative;
+        top: 55px;
+        margin-left: -48px;
+    }
     .coughes img {
         position: relative;
         left: -83px;
         width: 500px;
+    }
+    span.utvitaeTWO {
+        margin-left: 0px;
+        position: relative;
+        left: 0;
+    }
+    p.ipsum {
+        margin-top: 22px;
+        margin-left: -2px;
+        line-height: 22px;
+    }
+    span.ipsumTWO {
+        margin-left: 0px;
+        position: relative;
+        left: 0;
+    }
+    p.ipsumTHREE {
+        margin-top: -36px;
+        margin-left: 48px;
+    }
+    .affortableless {
+        display: flex;
+        margin-top: 40px;
+        margin-left: 0;
+        gap: 56px;
     }
     .firstdivisionW1 {
         display: none;
@@ -1702,9 +1733,15 @@ img.linked {
         width: 354px;
     }
 }
-@media screen and (max-width: 1110px) {
-
+@media screen and (max-width: 1105px) {
+    .mirror img {
+        width: 376px;
+        position: relative;
+        top: 55px;
+        margin-left: -48px;
+    }
 }
+
 @media screen and (max-width: 1000px){
     p.ectus {
         line-height: 25px;
@@ -1847,11 +1884,33 @@ img.linked {
         margin-left: 14px;
     }
 }
+@media screen and (max-width: 880px) {
+    .QUickOne {
+        margin-top: 60px;
+        margin-left: -57px;
+    }
+}
 @media screen and (max-width: 841px) {
     .coughes img {
         position: relative;
         width: 277px;
         left: -52px;
+    }
+}
+@media screen and (max-width: 819px) {
+    .Wrapper4 {
+        margin-top: 124px;
+        margin-left: 78px;
+        display: flex;
+        gap: 82px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .mirror img {
+        width: 562px;
+        position: relative;
+        top: -46px;
+        margin-left: -50px;
     }
 }
 @media screen and (max-width: 802px){
@@ -1993,6 +2052,79 @@ img.linked {
         position: relative;
     }
 }
+@media screen and (max-width: 610px) {
+    .fastforqard {
+        font-size: 33px;
+    }
+    .mirror img {
+        width: 468px;
+        position: relative;
+        top: -46px;
+        margin-left: -65px;
+    }
+    .fastforqard {
+        font-size: 33px;
+        font-family: Roboto;
+        font-weight: bold;
+        margin-top: 26px;
+        margin-left: 18px;
+    }
+    .vitae {
+        line-height: 21px;
+        font-size: 15px;
+        font-family: Roboto;
+        color: #65665C;
+        margin-top: 14px;
+        margin-left: 17px;
+    }
+    span.easy {
+        font-size: 13px;
+        font-family: Roboto;
+        border: 2px solid #E7E8E3;
+        background-color: #E7E8E3;
+        border-radius: 15px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        padding-right: 7px;
+        padding-left: 3px;
+        margin-left: 15px;
+    }
+    .affortableless {
+        display: flex;
+        margin-top: 40px;
+        margin-left: 39px;
+        gap: 56px;
+    }
+    p.ipsum, p.porta, .ipsumTHREE {
+        font-size: 14px;
+        font-family: Roboto;
+        color: #65665C;
+    }
+    button.propertiesagency {
+        margin-top: 17px;
+        margin-left: 37px;
+    }
+    button.propertiesagency {
+        border: 1px solid #65665c5e;
+        background-color: white;
+        border-radius: 6px;
+        padding-left: 15px;
+        padding-bottom: 4px;
+        padding-top: 4px;
+        padding-right: 15px;
+    }
+    .dropUPTWO span{
+        font-size: 13px;
+        font-family: Roboto;
+        color: #2A2C1F;
+    }
+    .dropUPTWO {
+        margin-top: 3px;
+    }
+    .dropUPTWO img{
+        margin-left: 4px;
+    }
+}
 @media screen and (max-width: 600px) {
     .livingroomphoto  {
        display: none;
@@ -2093,9 +2225,16 @@ p.lorem {
         margin-top: 74px;
     }
 }
+
 @media screen and (max-width: 499px) {
     .coughes img {
         width: 324px;
+    }
+    .mirror img {
+        width: 324px;
+        position: relative;
+        top: -46px;
+        margin-left: -76px;
     }
 }
 @media screen and (max-width: 479px) {
@@ -2124,7 +2263,39 @@ p.lorem {
         margin-bottom: -29px;
     }
 }
+@media screen and (max-width: 413px){
+    .affortableless {
+        display: flex;
+        margin-top: 40px;
+        margin-left: 0;
+        gap: 27px;
+        flex-direction: column;
+    }
+    .less {
+        margin-left: -27px;
+    }
+    .affordable {
+        margin-left: 15px;
+    }
+}
 @media screen and (max-width: 392px){
+    span.easy {
+        margin-left: -5px;
+    }
+    .fastforqard {
+        margin-top: 15px;
+        margin-left: -2px;
+    }
+    .vitae {
+        margin-top: 7px;
+        margin-left: 1px;
+    }
+    .affordable {
+        margin-left: 3px;
+    }
+    .less {
+        margin-left: -39px;
+    }
     span.housesfamily {
         margin-left: -25px;
     }
@@ -2183,7 +2354,7 @@ p.lorem {
     }
 }
 @media screen and (max-width: 337px) {
-    .coughes img {
+    .coughes img, .mirror img {
         width: 273px;
     }
 }
