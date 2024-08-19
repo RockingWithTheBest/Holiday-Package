@@ -1592,7 +1592,11 @@ img.linked {
     }
 }
 @media screen and (max-width: 1300px){
-    
+    .coughes img {
+        position: relative;
+        left: -83px;
+        width: 500px;
+    }
     .firstdivisionW1 {
         display: none;
     }
@@ -1639,6 +1643,7 @@ img.linked {
         top: 53px;
     }
 }
+
 @media  screen and (max-width: 1282px) {
     p.worlds {
         position: relative;
@@ -1675,10 +1680,73 @@ img.linked {
     
 
 }
+@media screen and (max-width: 1259px) {
+    .Wrapper3 {
+        margin-top: 128px;
+        display: flex;
+        flex-direction: row;
+    }
+    .ComfortHousMain {
+        position: relative;
+        top: 0;
+        margin-left: 39px;
+    }
+    .coughes img {
+        position: relative;
+        margin-left: 0;
+        width: 500px;
+    }
+}
+@media screen and (max-width: 1155px) {
+    .coughes img {
+        width: 354px;
+    }
+}
 @media screen and (max-width: 1110px) {
 
 }
 @media screen and (max-width: 1000px){
+    p.ectus {
+        line-height: 25px;
+        font-size: 15px;
+        font-family: Roboto;
+        color: #65665C;
+    }
+    span.housesfamily {
+        font-size: 36px;
+        font-family: Roboto;
+        font-weight: bold;
+        color: #2A2C1F;
+        margin-left: 1px;
+    }
+    .explorePROPERTIES span, .propertiesagency span {
+        font-size: 13px;
+        color: #2A2C1F;
+        font-family: Roboto;
+    }
+    button.explorePROPERTIES{
+        border: 1px solid #65665c5e;
+        background-color: white;
+        border-radius: 6px;
+        padding-left: 15px;
+        padding-bottom: 6px;
+        padding-top: 6px;
+        padding-right: 15px;
+    }
+    .dropUP span{
+        font-size: 13px;
+        font-family: Roboto;
+        color: #2A2C1F;
+    }
+    .dropUP img{
+        margin-left: 8px;
+    }
+    
+    .dropUP {
+        margin-left: 18px;
+        position: relative;
+        top: 5px;
+    }    
     button.btncart, button.login, button.signin {
         width: 77px;
         height: 28px;
@@ -1731,6 +1799,11 @@ img.linked {
         left: 374px;
     }
 }
+@media screen and (max-width: 914px) {
+    .coughes img {
+        width: 277px;
+    }
+}
 @media screen and (max-width: 926px){
     .livingroomphoto img{
         width: 451px;
@@ -1772,6 +1845,13 @@ img.linked {
     }
     span.MMedia {
         margin-left: 14px;
+    }
+}
+@media screen and (max-width: 841px) {
+    .coughes img {
+        position: relative;
+        width: 277px;
+        left: -52px;
     }
 }
 @media screen and (max-width: 802px){
@@ -1834,7 +1914,61 @@ img.linked {
     }
 
 }
+@media  screen and (max-width: 785px) {
+    .coughes img {
+        position: relative;
+        width: 277px;
+        left: -21px;
+    }
+}
 @media screen and (max-width: 780px) {
+    .Wrapper3 {
+        margin-top: 128px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    span.comfort {
+        color: #2A2C1F;
+        font-size: 13px;
+        font-family: Roboto;
+        background-color: #E7E8E3;
+        border-radius: 17px;
+        padding-right: 8px;
+        padding-left: 8px;
+        padding-top: 2px;
+        padding-bottom: 1px;
+    }
+    span.housesfamily {
+        font-size: 33px;
+        font-family: Roboto;
+        font-weight: bold;
+        color: #2A2C1F;
+        margin-left: 1px;
+    }
+    .coughes img {
+        margin-top: 24px;
+        position: relative;
+        width: 468px;
+        left: 0px;
+    }
+    p.ectus {
+        line-height: 19px;
+        font-size: 15px;
+        font-family: Roboto;
+        color: #65665C;
+    }
+    span.ectusTWO {
+        margin-left: -1px;
+        position: relative;
+        left: 0;
+    }
+    .Wrapper3 {
+        margin-top: 128px;
+        display: flex;
+        flex-direction: column;
+    }
     .Wrappper2W1 img {
         width: 480px;
         height: 41px;
@@ -1959,7 +2093,11 @@ p.lorem {
         margin-top: 74px;
     }
 }
-
+@media screen and (max-width: 499px) {
+    .coughes img {
+        width: 324px;
+    }
+}
 @media screen and (max-width: 479px) {
     button.findproperty {
         font-size: 11px;
@@ -1978,6 +2116,28 @@ p.lorem {
         margin-left: 20px;
         font-size: 13px;
         line-height: 20px;
+    }
+}
+@media screen and (max-width: 422px){
+    .housesfamilyDIV {
+        margin-top: 24px;
+        margin-bottom: -29px;
+    }
+}
+@media screen and (max-width: 392px){
+    span.housesfamily {
+        margin-left: -25px;
+    }
+    span.familyCOM {
+        margin-left: 164px;
+        left: -184px;
+        position: relative;
+    }
+    p.ectus {
+        margin-left: -22px;
+    }
+    span.comfort {
+        margin-left: -24px;
     }
 }
 @media screen and (max-width: 384px) {
@@ -2020,5 +2180,10 @@ p.lorem {
     }
     p.worlds, span.MMedia {
         font-size: 12px;
+    }
+}
+@media screen and (max-width: 337px) {
+    .coughes img {
+        width: 273px;
     }
 }
