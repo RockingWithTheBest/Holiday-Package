@@ -21,3 +21,7 @@ function toggle(e){
 icons.forEach((icon) =>{
     icon.addEventListener("click", toggle)
 });
+
+document.querySelector("#back_button").addEventListener("click",() =>{
+    window.history.back();
+}); 

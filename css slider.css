@@ -2,6 +2,19 @@
 .slidemovements, .slidemovements::before, .slidemovements::after{
     box-sizing: border-box;
 }
+.back button {
+    width: 153px;
+    font-family: Roboto;
+    height: 28px;
+    border: #CF6F49;
+    font-size: 15px;
+    position: relative;
+    background: #CF6F49;
+    color: white;
+    border-radius: 7px;
+    margin-left: 27px;
+    margin-bottom: 13px;
+}
 
 .slidemovements{
     display: flex;
