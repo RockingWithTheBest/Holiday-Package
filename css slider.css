@@ -1,0 +1,153 @@
+/*https://mutecoder.com/product/e-scooter-website-design-tutorial/  */
+.slidemovements, .slidemovements::before, .slidemovements::after{
+    box-sizing: border-box;
+}
+
+.slidemovements{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.slidemovements, h1 {
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.row{
+    display: flex;
+}
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+}
+/*Slider*/
+.slider{
+    flex-wrap: wrap;
+    gap: 2em;
+}
+.slider>*{
+    flex-wrap: 1 1 25em;
+}
+/*Slide left*/
+
+.slider-left h1 {
+    font-weight: 900;
+    font-size: clamp(30px, 5vw, 70px);
+}
+.s-l-btns{
+    padding: 2em 0;
+}
+.lists{
+    position: relative;
+    display: grid;
+    gap: 1em;
+    align-items:center;
+    justify-content: center;
+    overflow: hidden;    
+}
+.lists::after{
+    position: absolute;
+    right: 0;
+    content: "";
+    width: 0.3em;
+    height: 100%;
+    background: #dedede;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-borde-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+.lists li {
+    font-weight: 400;
+    font-size: 20px;
+    align-items: center;
+    cursor: pointer;
+    gap: 0.5em;
+    padding: 0.5em 0.7em;
+    border-left: 5px solid transparent;
+}
+.lists li.active {
+    background-color: black;
+    border-color:#feb54e;
+    color: white;
+}
+.lists span{
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 12px;
+    color: #feb54e;
+    padding: 0.3em 0.7em;
+    border: 1px solid #dedede;
+    border-radius: 50%;
+}
+.lists li.active span{
+    color: white;
+    background-color: #feb54e;
+    border-color:  #feb54e
+}
+.lists li.active::after{
+    position: absolute;
+    right: 0;
+    content: "";
+    width: 0.25em;
+    height: 25.5%;
+    background: #feb54e;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-borde-radius:100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    z-index: 1;
+}
+.lists li img{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/*Slide-Right*/
+.slides-right{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.slides-right::after{
+    position: absolute;
+    right: 0;
+    content: "";
+    width:300px;
+    height: 100%;
+    background: #feb54e;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+
+    -moz-transform: rotate(45deg);
+
+    -ms-transform: rotate(45deg);
+
+    -o-transform: rotate(45deg);
+    z-index: -1;
+}
+.slide-right img{
+    max-height: 400px;
+    object-fit: contain;
+}
+/*End Slider*/
+
+
+/*MEdia*/
+@media  screen and (max-width: 500px){
+    .slider-right::after{
+        all:unset;
+    }
+}
+/*End Media*/
