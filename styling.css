@@ -2931,9 +2931,16 @@ p.lorem {
 }
 @media screen and (max-width: 401px){
     .join span {
+        margin-left: 3px;
         position: relative;
         top: 7px;
         left: 0px;
+    }
+    p.join {
+        color: #65665C;
+        margin-left: 3px;
+        font-size: 14px;
+        font-family: Roboto;
     }
 }
 @media screen and (max-width: 392px){
