@@ -3,9 +3,10 @@ body {
     margin: 0;
     background: rgb(248, 249, 250) !important;
 }
-.WrapperImage_5{
+.WrapperImage_5, .Wrapper_Imagine6{
     display: none;
 }
+
 .WrapperOneFirst {
     background-color: #939878;
     height: 40px;
@@ -1677,7 +1678,35 @@ img.linked {
         top: 53px;
     }
 }
-
+@media screen and (max-width: 1292px) {
+    .LASDONE, .LASDTWO, .LASDTHREE {
+        border: 2px solid white;
+        background-color: white;
+        border-radius: 20px;
+        width: 269px;
+    }
+    .LASD {
+        display: grid;
+        grid-template-columns: repeat(2, 416px);
+        grid-auto-rows: 120px;
+        position: relative;
+        grid-row-gap: 10px;
+        align-items: center;
+        justify-content: center;
+        left: 98px;
+        margin-top: -63px;
+    }
+    .LASDTWO {
+        margin-left: 0;
+    }
+    .LASDTHREE {
+        margin-left: 0;
+    }
+    .Wrapper7 {
+        width: 1022px;
+        margin-top: 51px;
+    }
+}
 @media  screen and (max-width: 1282px) {
     p.worlds {
         position: relative;
@@ -1789,6 +1818,27 @@ img.linked {
         margin-left: -48px;
     }
 }
+@media screen and (max-width: 1034px) {
+    span.locationSix {
+        position: relative;
+        left: 60px;
+    }
+    .Wrapper7 {
+        width: 920px;
+        margin-top: 51px;
+    }
+}
+@media screen and (max-width: 1015px) {
+    p.fringilla {
+        margin-left: 55px;
+    }
+    .Wrapper7 {
+        height: 395px;
+    }
+    div .family_restroom {
+        margin-top: 52px;
+    }
+}
 @media screen and (max-width: 1011px) {
     .perties {
         position: relative;
@@ -1895,6 +1945,67 @@ img.linked {
         left: 374px;
     }
 }
+@media screen and (max-width:   998px) {
+    .Wrapper7 {
+        width: 852px;
+        margin-top: 51px;
+    }
+}
+@media screen and (max-width: 993px) {
+    .Wrapper_Imagine6 {
+        margin-top: -48px;
+        background: #F5F5F2;
+        display: block;
+    }
+    .Wrapper6{
+        display: none;
+    }
+    span.fringillaONE, span.fringillaONETWO {
+        font-size: 18px;
+        font-family: Roboto;
+        color: #65665C;
+        margin-left: 46px;
+        text-align: center;
+    }
+    span.fringillaONETWO {
+        margin-left: 0px;
+    }
+    .LASDList {
+        font-size: 20px;
+        font-family: Roboto;
+        color: #65665C;
+        line-height: 43px;
+        margin-left: 46px;
+    }
+    .Wrapper7 {
+      
+        position: relative;
+        left: -22px;
+    }
+    div .Morbii {
+        margin-top: -16px;
+    }
+    span.MorbiiTWO {
+        position: relative;
+        left: 0;
+        top: -14px;
+    }
+    span.MorbiiTWO {
+        margin-left: 5px;
+    }
+    span.MorbiiTHREE {
+        position: relative;
+        top: -14px;
+    }
+    .locationSixImage {
+        position: relative;
+        font-weight: bold;
+        font-size: 48px;
+        font-family: Roboto;
+        padding-top: 71px;
+        text-align: center;
+    }
+}
 @media screen and (max-width: 990px) {
     p.areafav {
         position: relative;
@@ -1905,6 +2016,15 @@ img.linked {
         position: relative;
         left: 60px;
         margin-left: 0;
+    }
+}
+@media screen and (max-width: 943px) {
+    .Wrapper7 {
+        position: relative;
+        left: -46px;
+    }
+    span.fringillaONE {
+        margin-left: 22px;
     }
 }
 @media screen and (max-width: 929px) {
@@ -1935,16 +2055,56 @@ img.linked {
         color: white;
     }
 }
-@media screen and (max-width: 914px) {
-    .coughes img {
-        width: 277px;
-    }
-}
 @media screen and (max-width: 926px){
     .livingroomphoto img{
         width: 451px;
     }
     
+}
+@media screen and (max-width: 914px) {
+    .coughes img {
+        width: 277px;
+    }
+}
+@media screen and (max-width: 912px) {
+    span.fringillaONE,  span.fringillaONETWO {
+        font-size: 16px;
+    }
+    .locationSixImage {
+        font-size: 40px;
+    }
+    .LASDList {
+        font-size: 16px;
+        margin-left: 28px;
+    }
+    p.Morbii, span.MorbiiTWO {
+        color: #E7E8E3;
+        font-size: 16px;
+        font-family: Roboto;
+    }
+    p.priority {
+        font-size: 40px;
+        color: white;
+        font-family: Roboto;
+        font-weight: bold;
+    }
+    div .family_restroom {
+        margin-top: 24px;
+        background-color: white;
+        padding: 5px;
+        border-radius: 7px;
+    }
+    .Wrapper7 {
+        position: relative;
+        left: -4px;
+    }
+    .Wrapper7 {
+        width: 763px;
+        margin-top: 51px;
+    }
+    .Wrapper7 {
+        height: 312px;
+    }
 }
 @media screen and (max-width: 885px){
     .Wrappper2W1 img {
@@ -1989,11 +2149,23 @@ img.linked {
         margin-left: -57px;
     }
 }
+@media screen and (max-width: 869px) {
+    .Wrapper7 {
+        position: relative;
+        left: 0;
+        margin-left: -26px;
+    }
+}
 @media screen and (max-width: 841px) {
     .coughes img {
         position: relative;
         width: 277px;
         left: -52px;
+    }
+}
+@media screen and (max-width: 823px) {
+    .Wrapper7 {
+        margin-left: -45px;
     }
 }
 @media screen and (max-width: 819px) {
@@ -2010,6 +2182,11 @@ img.linked {
         position: relative;
         top: -46px;
         margin-left: -50px;
+    }
+}
+@media screen and (max-width: 813px) {
+    span.fringillaONE {
+        margin-left: 9px;
     }
 }
 @media screen and (max-width: 802px){
@@ -2071,6 +2248,30 @@ img.linked {
         left: -60px;
     }
 
+}
+@media screen and (max-width: 800px) {
+    .Wrapper7 {
+        margin-left: 0;
+        position: relative;
+        left: 18px;
+        width: 530px;
+    }
+    span.MorbiiTWO {
+        margin-left: -267px;
+    }
+    span.MorbiiTWO {
+        position: relative;
+        left: 0;
+        top: -21px;
+    }
+    p.Morbii {
+        margin-left: 11px;
+    }
+    span.MorbiiTHREE {
+        position: relative;
+        top: 0;
+        margin-left: -165px;
+    }
 }
 @media  screen and (max-width: 785px) {
     .coughes img {
@@ -2141,6 +2342,14 @@ img.linked {
         margin-left: 28px;
     }
 }
+@media screen and (max-width: 691px) {
+    span.fringillaONE {
+        margin-left: 0px;
+    }
+    p.paragraphLocation {
+        margin-left: 31px;
+    }
+}
 @media screen and (max-width: 686px) {
     .livingroomphoto img {
         width: 289px;
@@ -2149,6 +2358,85 @@ img.linked {
         left: 0px;
         top: 5px;
         position: relative;
+    }
+}
+@media screen and (max-width: 651px) {
+    .Wrapper7 {
+
+        margin-top: 22px;
+    }
+    span.MorbiiFOUR {
+        margin-left: 4px;
+    }
+    span.MorbiiTHREE {
+        position: relative;
+        top: 0;
+        margin-left: 0;
+    }
+    .LASDList {
+        line-height: 19px;
+    }
+    .Wrapper7 {
+        height: 226px;
+    }
+    p.priority {
+        font-size: 30px;
+    }
+    span.MorbiiTWO {
+        margin-left: -1px;
+    }
+    p.Morbii {
+        margin-left: 7px;
+    }
+    p.Morbii, span.MorbiiTWO {
+        color: #E7E8E3;
+        font-size: 13px;
+        font-family: Roboto;
+    }
+    button.getstarted {
+        font-size: 15px;
+        font-family: Roboto;
+        color: white;
+        background-color: #CF6F49;
+        border: 2px solid #CF6F49;
+        border-radius: 4px;
+        padding-bottom: 9px;
+        position: relative;
+        top: -9px;
+        padding-top: 4px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .locationSixImage {
+        font-size: 30px;
+    }
+    span.fringillaONE, span.fringillaONETWO {
+        font-size: 15px;
+    }
+    .LASDList {
+        font-size: 15px;
+        margin-left: 28px;
+    }
+    li {
+        line-height: 26px;
+    }
+    span.MorbiiTWO {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+}
+@media screen and (max-width: 642px) {
+    .Wrapper7 {
+        margin-left: 0;
+        position: relative;
+        left: -20px;
+        width: 530px;
+    }
+}
+@media screen and (max-width: 624px) {
+    .Wrapper7 {
+        
     }
 }
 @media screen and (max-width: 610px) {
@@ -2270,6 +2558,17 @@ img.linked {
         margin-bottom: 39px;
     }
 }
+@media screen and (max-width: 597px) {
+    .Wrapper7 {
+        position: relative;
+        left: -30px;
+    }
+}
+@media screen and (max-width: 582px) {
+    .Wrapper7 {
+        width: 493px;
+    }
+}
 @media screen and (max-width: 580px){
     .WrapperOneFirst {
         font-size: 13px;
@@ -2284,6 +2583,12 @@ p.lorem {
     position: relative;
     left: -64px;
 }
+}
+@media screen and (max-width: 534px){
+    .Wrapper7 {
+        position: relative;
+        left: -53px;
+    }
 }
 @media screen and (max-width: 525px){
     p.worlds, span.MMedia {
@@ -2324,6 +2629,16 @@ p.lorem {
         margin-top: 74px;
     }
 }
+@media screen and (max-width: 509px) {
+    .LASDList {
+        font-size: 14px;
+        margin-left: 28px;
+    }
+    .Wrapper7 {
+        position: relative;
+        left: -63px;
+    }
+}
 
 @media screen and (max-width: 499px) {
     .coughes img {
@@ -2335,6 +2650,22 @@ p.lorem {
         top: -46px;
         margin-left: -76px;
     }
+    .Wrapper7 {
+        width: 327px;
+    }
+    p.priority {
+        font-size: 25px;
+    }
+    div .family_restroom {
+        padding: 1px;
+    }
+    .Wrapper7 img {
+        width: 21px;
+    }
+    .Wrapper7 {
+        position: relative;
+        left: 19px;
+    }
 }
 @media screen and (max-width: 479px) {
     button.findproperty {
@@ -2344,7 +2675,18 @@ p.lorem {
         font-size: 12px;
       } 
 }
-
+@media screen and (max-width: 469px) {
+    .Wrapper7 {
+        position: relative;
+        left: 0;
+    }
+}
+@media screen and (max-width: 442px) {
+    .Wrapper7 {
+        position: relative;
+        left: -8px;
+    }
+}
 @media screen and (max-width: 430px) {
     .Wrappper2W1 img {
         width: 372px;
@@ -2360,6 +2702,12 @@ p.lorem {
     .housesfamilyDIV {
         margin-top: 24px;
         margin-bottom: -29px;
+    }
+}
+@media screen and (max-width: 419px){
+    .Wrapper7 {
+        position: relative;
+        left: -23px;
     }
 }
 @media screen and (max-width: 413px){
@@ -2443,6 +2791,12 @@ p.lorem {
         margin-top: 18px;
     }
 }
+@media screen and (max-width: 381px) {
+    .Wrapper7 {
+        position: relative;
+        left: -44px;
+    }
+}
 @media screen and (max-width: 360px) {
     .Wrappper2W1 img {
         width: 315px;
@@ -2450,6 +2804,23 @@ p.lorem {
     }
     p.worlds, span.MMedia {
         font-size: 12px;
+    }
+}
+@media screen and (max-width: 358px) {
+    .Wrapper7 {
+        position: relative;
+        left: -45px;
+        width: 315px;
+    }
+}
+@media screen and (max-width: 344px){
+    .Wrapper7 {
+        position: relative;
+        left: -47px;
+        width: 303px;
+    }
+    p.paragraphLocation {
+        margin-left: 14px;
     }
 }
 @media screen and (max-width: 337px) {
