@@ -2681,6 +2681,7 @@ p.lorem {
         left: 0;
     }
 }
+
 @media screen and (max-width: 442px) {
     .Wrapper7 {
         position: relative;
@@ -2810,6 +2811,13 @@ p.lorem {
     .Wrapper7 {
         position: relative;
         left: -45px;
+        width: 315px;
+    }
+}
+@media screen and (max-width: 345px) {
+    .Wrapper7 {
+        position: relative;
+        left: -53px;
         width: 315px;
     }
 }
