@@ -2931,14 +2931,14 @@ p.lorem {
 }
 @media screen and (max-width: 401px){
     .join span {
-        margin-left: 3px;
+        margin-left: 2px;
         position: relative;
-        top: 7px;
+        top: 0;
         left: 0px;
     }
     p.join {
         color: #65665C;
-        margin-left: 3px;
+        margin-left: -13px;
         font-size: 14px;
         font-family: Roboto;
     }
