@@ -3,7 +3,7 @@ body {
     margin: 0;
     background: rgb(248, 249, 250) !important;
 }
-.WrapperImage_5, .Wrapper_Imagine6{
+.WrapperImage_5, .Wrapper_Imagine6 , .WrapperImage_10{
     display: none;
 }
 
@@ -1595,6 +1595,16 @@ img.linked {
         grid-row-gap: 31px;
     }
 }
+@media screen and (max-width: 1395px) {
+    .Wrapper10 {
+        margin-top: 50px;
+        font-family: Roboto;
+        display: flex;
+        justify-content: center;
+        gap: 78px;
+        margin-bottom: 59px;
+    }
+}
 @media screen and (max-width: 1300px){
     .mirror img {
         width: 500px;
@@ -1808,6 +1818,66 @@ img.linked {
         position: relative;
         left: 0;
         margin-left: 498px;
+    }
+}
+@media screen and (max-width: 1108px){
+    p.join {
+        color: #65665C;
+        margin-left: -1px;
+    }
+}
+@media screen and (max-width: 1106px){
+    .Wrapper10 {
+        display: grid;
+        justify-content: flex-start;
+        gap: 0px;
+    }
+    .companyreal {
+        margin-bottom: 32px;
+    }
+    .phaboy, .cmsprop, .utilitypages {
+        position: relative;
+        left: 0;
+        top: 0;
+        display: flex;
+        gap: 20px;
+        margin-left: 16px;
+    }
+    .subscribe {
+        position: relative;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        margin-left: 16px;
+    }
+    p.home, p.Agents, p.FAQs, p.property {
+        margin-top: 0;
+        font-size: 14px;
+    }
+    p.Propertysingle, p.About {
+        margin-top: 0;
+        font-size: 14px;
+    }
+    p.Blog, p.properitIES, p.Contact {
+        margin-top: 0;
+        font-size: 14px;
+    }
+    p.catergories, p.agentsingle, p.blogsingle {
+        margin-top: 0;
+    }
+    p.StyleGuide, p.Licenses {
+        margin-top: 0;
+    }
+    p.Changelog, p.Password, p.Search {
+        margin-top: 0;
+    }
+    p.F404 {
+        margin-top: 0;
+    }
+    p.pages, p.cms, p.pagesutilize{
+        font-size: 14px;
+        position: relative;
+        top: -14px;
     }
 }
 @media screen and (max-width: 1105px) {
@@ -2564,6 +2634,62 @@ img.linked {
         left: -30px;
     }
 }
+@media screen and (max-width: 587px){
+    .companyreal {
+        font-size: 18px;
+    }
+    p.pages {
+        font-size: 12px;
+    }
+    p.home, p.Agents, p.FAQs, p.property {
+        margin-top: 0;
+        font-size: 12px;
+    }
+    p.Propertysingle, p.About {
+        margin-top: 0;
+        font-size: 12px;
+    }
+    p.Blog, p.properitIES, p.Contact {
+        margin-top: 0;
+        font-size: 12px;
+    }
+    p.pages, p.cms, p.pagesutilize {
+        font-size: 12px;
+    }
+    p.catergories, p.blogsingle, p.agentsingle, p.StyleGuide, p.Changelog, p.Licenses, p.F404, p.Password, p.Search {
+        font-size: 12px;
+    }
+    p.subs {
+        font-size: 14px;
+    }
+    p.join {
+        color: #65665C;
+        margin-left: -2px;
+    }
+    button.email {
+        border: 2px solid #9e9e9e4d;
+        background: white;
+        padding: 5px;
+        padding-right: 71px;
+        border-radius: 8px;
+        color: #65665C;
+        padding-left: 12px;
+    }
+    button.email, button.subbutton {
+        font-family: Roboto;
+        font-size: 12px;
+    }
+    button.subbutton {
+        background: #CF6F49;
+        border: 2px solid #CF6F49;
+        padding: 5px;
+        padding-left: 9px;
+        padding-right: 9px;
+        border-radius: 5px;
+        color: white;
+        margin-left: 13px;
+    }
+}
 @media screen and (max-width: 582px) {
     .Wrapper7 {
         width: 493px;
@@ -2588,6 +2714,83 @@ p.lorem {
     .Wrapper7 {
         position: relative;
         left: -53px;
+    }
+}
+@media screen and (max-width: 530px){
+    .WrapperImage_10 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Wrapper10{
+        display: none;
+    }
+    .Imageingrid10 {
+        display: flex;
+        flex-direction: row;
+    }
+    .phaboy, .utilitypages {
+        display: flex;
+        flex-direction: column;
+    }
+    .phaboy , .utilitypages {
+        font-family: Roboto;
+        line-height: 0px;
+    }
+    .companyreal {
+        font-weight: bold;
+        position: relative;
+        top: 5px;
+        left: 0;
+    }
+    .companyreal {
+        font-size: 18px;
+        font-family: Roboto;
+        margin-left: 19px;
+    }
+    p.pages, p.cms, p.pagesutilize {
+        font-size: 14px;
+        font-family: Roboto;
+    }
+    p.home, p.Agents, p.FAQs, p.property {
+        margin-top: 0;
+        font-size: 14px;
+        font-family: Roboto;
+    }
+    p.join {
+        color: #65665C;
+        margin-left: -5px;
+        font-size: 14px;
+        font-family: Roboto;
+    }
+    .join span {
+        position: relative;
+        top: 23px;
+        left: -332px;
+    }
+    p.subs {
+        font-size: 19px;
+        font-weight: bold;
+        font-family: Roboto;
+    }
+    p.agree, .agree span {
+        color: #65665C;
+        font-size: 12px;
+        font-family: Roboto;
+    }
+    p.Propertysingle, p.About {
+        margin-top: 0;
+        font-size: 14px;
+        font-family: Roboto;
+    }
+    p.Blog, p.properitIES, p.Contact {
+        margin-top: 0;
+        font-size: 14px;
+        font-family: Roboto;
+    }
+    p.catergories, p.blogsingle, p.agentsingle, p.StyleGuide, p.Changelog, p.Licenses, p.F404, p.Password, p.Search {
+        font-size: 14px;
+        font-family: Roboto;
     }
 }
 @media screen and (max-width: 525px){
