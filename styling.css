@@ -2929,6 +2929,13 @@ p.lorem {
         margin-left: 15px;
     }
 }
+@media screen and (max-width: 401px){
+    .join span {
+        position: relative;
+        top: 7px;
+        left: 0px;
+    }
+}
 @media screen and (max-width: 392px){
     span.easy {
         margin-left: -5px;
