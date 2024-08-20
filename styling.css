@@ -2719,7 +2719,7 @@ p.lorem {
 @media screen and (max-width: 530px){
     .WrapperImage_10 {
         display: flex;
-        align-items: center;
+        
         flex-direction: column;
     }
     .Wrapper10{
