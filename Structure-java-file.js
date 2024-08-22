@@ -3,5 +3,6 @@ document.querySelector("#click_here").addEventListener("click",()=>{
 });
 
 document.querySelector("#signin").addEventListener("click",()=>{
+    event.preventDefault();
     window.location.href = "registrationform.html";
 });
