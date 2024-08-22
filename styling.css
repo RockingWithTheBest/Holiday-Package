@@ -1813,6 +1813,17 @@ img.linked {
         width: 354px;
     }
 }
+@media screen and (max-width: 1154px) {
+    .Realcoby {
+        position: relative;
+        left: 0;
+    }   
+    .images {
+        position: relative;
+        left: 244px;
+        margin-left: 0;
+    }
+}
 @media screen and (max-width: 1150px) {
     .perties {
         position: relative;
@@ -1896,6 +1907,12 @@ img.linked {
     .Wrapper7 {
         width: 920px;
         margin-top: 51px;
+    }
+}
+@media screen and (max-width: 1020px) {
+    .miminal {
+        position: relative;
+        left: -340px;
     }
 }
 @media screen and (max-width: 1015px) {
@@ -2226,6 +2243,17 @@ img.linked {
         margin-left: -26px;
     }
 }
+@media screen and (max-width: 867px) {
+    .images {
+        position: relative;
+        left: 106px;
+        margin-left: 0;
+    }
+    .miminal {
+        position: relative;
+        left: -292px;
+    }
+}
 @media screen and (max-width: 841px) {
     .coughes img {
         position: relative;
@@ -2411,6 +2439,28 @@ img.linked {
     p.nunc {
         margin-left: 28px;
     }
+}
+@media screen and (max-width: 704px) {
+    .Realcoby {
+        position: relative;
+        left: 0;
+        margin-left: 0;
+    }
+    .miminal {
+        position: relative;
+        left: 0;
+    }
+    .images {
+        position: relative;
+        left: 0;
+        margin-left: 0;
+    }
+    .Wrapper11 {
+        display: flex;
+        justify-content: center;
+        gap: 66px;
+    }
+
 }
 @media screen and (max-width: 691px) {
     span.fringillaONE {
@@ -2870,6 +2920,22 @@ p.lorem {
         left: 19px;
     }
 }
+@media screen and (max-width: 495px) {
+    .images img {
+        width: 12px;
+    }
+    img.book {
+        width: 7px;
+    }
+    .images {
+        position: relative;
+        left: -40px;
+        margin-left: 0;
+    }
+    .Wrapper11{
+        font-size: 12px;
+    }
+}
 @media screen and (max-width: 479px) {
     button.findproperty {
         font-size: 11px;
@@ -2941,6 +3007,9 @@ p.lorem {
         margin-left: -13px;
         font-size: 14px;
         font-family: Roboto;
+    }
+    .entemail {
+        margin-top: 8px;
     }
 }
 @media screen and (max-width: 392px){
@@ -3029,6 +3098,23 @@ p.lorem {
         position: relative;
         left: -45px;
         width: 315px;
+    }
+}
+@media screen and (max-width: 354px) {
+    .Wrapper11 {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+    .Realcoby {
+        position: relative;
+        left: 37px;
+        margin-left: -75px;
+    }
+    .images {
+        position: relative;
+        left: -25px;
+        margin-left: 0;
     }
 }
 @media screen and (max-width: 345px) {
